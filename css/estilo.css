@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(15, 1, 124);
+}
+
 
 header{
     display: flex;
@@ -19,7 +23,7 @@ header{
     font-size: 20px;
     color: #252B33;
 }
-a{
+.barra-menu{
     text-decoration: none;
     padding: 0 10px;
     font-size: 13px;
@@ -29,9 +33,6 @@ a{
     
 }
 
-body{
-    background-color: rgb(15, 1, 124);
-}
 nav{
     display: flex;
     margin: 0;
@@ -46,17 +47,88 @@ nav{
 }
 
 .bi{
+    padding: 5px;
     color: #4D555A;
     width: 150px;
+
 }
-a:hover{
+.barra-menu:hover{
     background-color: #dce0e2;
+}
+.bi:hover{
+    background-color: #dce0e2;
+    border-radius: 30%;
 }
 
 main{
-    background-color: green;
-}
-.uno{
-    background-color: chocolate;
+    margin: 0 auto;
+
+  /*hero*/  
 }
 
+.hero{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5DF4E;
+    align-items: center;
+    padding-top: 50px;
+    
+
+}
+
+
+    
+}
+.contenedor-foto{
+   
+    width: 300px;
+    padding-right: 50px;
+}
+
+.fotocara{
+    width: 100%;
+    border: 10px solid #FFFFFF;
+    border-radius: 50%;
+    
+}
+.titulo1{
+    font-family: poppins;
+    font-size: 30px;
+    color: #212529;
+}
+.titulo2{
+    font-family: poppins;
+    font-size: 65px;
+    letter-spacing: 5px;
+    color: #212529;
+}
+.botonhero1{
+    border: 0;
+    background-color: #212529;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-family: poppins;
+    font-size: 12px;
+}
+.botonhero2{
+    border: 0;
+    background-color:#F5DF4E;
+    margin-left: 30px;
+    border-bottom: 1px solid #252B33;
+    font-family: poppins;
+    color: #212529;
+    font-size: 12px;
+}
+p{
+    font-family: poppins;
+    color: #212529;
+    
+}
+.botonhero1:hover{
+    background-color: #4D555A;
+}
+.botonhero2:hover{
+    color: #FFFFFF ;
+}
